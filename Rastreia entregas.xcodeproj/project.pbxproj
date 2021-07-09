@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C726B62693DAB000333F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B52693DAB000333F2F /* AppDelegate.swift */; };
+		03C726B82693DAB000333F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B72693DAB000333F2F /* SceneDelegate.swift */; };
+		03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B92693DAB000333F2F /* HomeViewController.swift */; };
+		03C726C02693DAB000333F2F /* Rastreia_entregas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03C726BE2693DAB000333F2F /* Rastreia_entregas.xcdatamodeld */; };
+		03C726C22693DAB200333F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C726C12693DAB200333F2F /* Assets.xcassets */; };
+		03C726C52693DAB200333F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C726C32693DAB200333F2F /* LaunchScreen.storyboard */; };
+		03C726D02693DAB300333F2F /* Rastreia_entregasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726CF2693DAB300333F2F /* Rastreia_entregasTests.swift */; };
+		03C726DB2693DAB300333F2F /* Rastreia_entregasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726DA2693DAB300333F2F /* Rastreia_entregasUITests.swift */; };
+		03C726EB2693DB7400333F2F /* PackageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726EA2693DB7400333F2F /* PackageTracking.swift */; };
+		03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726F82694848D00333F2F /* HomeViewModel.swift */; };
+		03C726FB2694891900333F2F /* PackageStoredInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726FA2694891900333F2F /* PackageStoredInfos.swift */; };
+		03C726FE26949BE800333F2F /* PackageProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726FD26949BE800333F2F /* PackageProviding.swift */; };
+		03C7270126949DC800333F2F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7270026949DC800333F2F /* Networking.swift */; };
+		03C727052694CA1400333F2F /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 03C727042694CA1400333F2F /* json.json */; };
+		6002B1249AFF0811F633BAA8 /* Pods_Rastreia_entregas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C726CC2693DAB300333F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C726AA2693DAB000333F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C726B12693DAB000333F2F;
+			remoteInfo = "Rastreia entregas";
+		};
+		03C726D72693DAB300333F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C726AA2693DAB000333F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C726B12693DAB000333F2F;
+			remoteInfo = "Rastreia entregas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C726B22693DAB000333F2F /* Rastreia entregas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rastreia entregas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C726B52693DAB000333F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C726B72693DAB000333F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03C726B92693DAB000333F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03C726BF2693DAB000333F2F /* Rastreia_entregas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rastreia_entregas.xcdatamodel; sourceTree = "<group>"; };
+		03C726C12693DAB200333F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C726C42693DAB200333F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C726C62693DAB200333F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C726CB2693DAB300333F2F /* Rastreia entregasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rastreia entregasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C726CF2693DAB300333F2F /* Rastreia_entregasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rastreia_entregasTests.swift; sourceTree = "<group>"; };
+		03C726D12693DAB300333F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rastreia entregasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C726DA2693DAB300333F2F /* Rastreia_entregasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rastreia_entregasUITests.swift; sourceTree = "<group>"; };
+		03C726DC2693DAB300333F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C726EA2693DB7400333F2F /* PackageTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTracking.swift; sourceTree = "<group>"; };
+		03C726F82694848D00333F2F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		03C726FA2694891900333F2F /* PackageStoredInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageStoredInfos.swift; sourceTree = "<group>"; };
+		03C726FD26949BE800333F2F /* PackageProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageProviding.swift; sourceTree = "<group>"; };
+		03C7270026949DC800333F2F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		03C727042694CA1400333F2F /* json.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
+		03C727142695FFE400333F2F /* Rastreia entregas.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Rastreia entregas.entitlements"; sourceTree = "<group>"; };
+		623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rastreia_entregas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rastreia entregas.release.xcconfig"; path = "Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas.release.xcconfig"; sourceTree = "<group>"; };
+		C0A2FAFDC4BC57B63A04CE8B /* Pods-Rastreia entregas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rastreia entregas.debug.xcconfig"; path = "Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C726AF2693DAB000333F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6002B1249AFF0811F633BAA8 /* Pods_Rastreia_entregas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726C82693DAB300333F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726D32693DAB300333F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C726A92693DAB000333F2F = {
+			isa = PBXGroup;
+			children = (
+				03C726B42693DAB000333F2F /* Rastreia entregas */,
+				03C726CE2693DAB300333F2F /* Rastreia entregasTests */,
+				03C726D92693DAB300333F2F /* Rastreia entregasUITests */,
+				03C726B32693DAB000333F2F /* Products */,
+				E9049AAE70C8B8FBDD38572D /* Pods */,
+				A034E61ECD46D633B16105EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03C726B32693DAB000333F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C726B22693DAB000333F2F /* Rastreia entregas.app */,
+				03C726CB2693DAB300333F2F /* Rastreia entregasTests.xctest */,
+				03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C726B42693DAB000333F2F /* Rastreia entregas */ = {
+			isa = PBXGroup;
+			children = (
+				03C726F42694844800333F2F /* Components */,
+				03C726F32694841000333F2F /* Extensions */,
+				03C726E92693DAD400333F2F /* Model */,
+				03C726E82693DAC100333F2F /* Services */,
+				03C726EC2694838700333F2F /* Scenes */,
+				03C726B52693DAB000333F2F /* AppDelegate.swift */,
+				03C727142695FFE400333F2F /* Rastreia entregas.entitlements */,
+				03C726B72693DAB000333F2F /* SceneDelegate.swift */,
+				03C726C12693DAB200333F2F /* Assets.xcassets */,
+				03C726C32693DAB200333F2F /* LaunchScreen.storyboard */,
+				03C726C62693DAB200333F2F /* Info.plist */,
+				03C726BE2693DAB000333F2F /* Rastreia_entregas.xcdatamodeld */,
+			);
+			path = "Rastreia entregas";
+			sourceTree = "<group>";
+		};
+		03C726CE2693DAB300333F2F /* Rastreia entregasTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C726CF2693DAB300333F2F /* Rastreia_entregasTests.swift */,
+				03C726D12693DAB300333F2F /* Info.plist */,
+			);
+			path = "Rastreia entregasTests";
+			sourceTree = "<group>";
+		};
+		03C726D92693DAB300333F2F /* Rastreia entregasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C726DA2693DAB300333F2F /* Rastreia_entregasUITests.swift */,
+				03C726DC2693DAB300333F2F /* Info.plist */,
+			);
+			path = "Rastreia entregasUITests";
+			sourceTree = "<group>";
+		};
+		03C726E82693DAC100333F2F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				03C726FF26949DB700333F2F /* Networking */,
+				03C726FC26949BB200333F2F /* Providers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		03C726E92693DAD400333F2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03C726EA2693DB7400333F2F /* PackageTracking.swift */,
+				03C726FA2694891900333F2F /* PackageStoredInfos.swift */,
+				03C727042694CA1400333F2F /* json.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03C726EC2694838700333F2F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				03C726EE269483B200333F2F /* Add */,
+				03C726ED2694839500333F2F /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		03C726ED2694839500333F2F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03C726B92693DAB000333F2F /* HomeViewController.swift */,
+				03C726F0269483CE00333F2F /* ViewModel */,
+				03C726EF269483C300333F2F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03C726EE269483B200333F2F /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				03C726F2269483EA00333F2F /* ViewModel */,
+				03C726F1269483EA00333F2F /* View */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		03C726EF269483C300333F2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C726F0269483CE00333F2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03C726F82694848D00333F2F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03C726F1269483EA00333F2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C726F2269483EA00333F2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03C726F32694841000333F2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		03C726F42694844800333F2F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				03C726F72694846B00333F2F /* Organisms */,
+				03C726F62694845E00333F2F /* Molecules */,
+				03C726F52694845800333F2F /* Atoms */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		03C726F52694845800333F2F /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		03C726F62694845E00333F2F /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		03C726F72694846B00333F2F /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		03C726FC26949BB200333F2F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				03C726FD26949BE800333F2F /* PackageProviding.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		03C726FF26949DB700333F2F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				03C7270026949DC800333F2F /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A034E61ECD46D633B16105EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9049AAE70C8B8FBDD38572D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2FAFDC4BC57B63A04CE8B /* Pods-Rastreia entregas.debug.xcconfig */,
+				ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C726B12693DAB000333F2F /* Rastreia entregas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C726DF2693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregas" */;
+			buildPhases = (
+				7273B13AB74584EA3F157C55 /* [CP] Check Pods Manifest.lock */,
+				03C726AE2693DAB000333F2F /* Sources */,
+				03C726AF2693DAB000333F2F /* Frameworks */,
+				03C726B02693DAB000333F2F /* Resources */,
+				600C3B22AE4A35464F72D88D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rastreia entregas";
+			productName = "Rastreia entregas";
+			productReference = 03C726B22693DAB000333F2F /* Rastreia entregas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C726CA2693DAB300333F2F /* Rastreia entregasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C726E22693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregasTests" */;
+			buildPhases = (
+				03C726C72693DAB300333F2F /* Sources */,
+				03C726C82693DAB300333F2F /* Frameworks */,
+				03C726C92693DAB300333F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C726CD2693DAB300333F2F /* PBXTargetDependency */,
+			);
+			name = "Rastreia entregasTests";
+			productName = "Rastreia entregasTests";
+			productReference = 03C726CB2693DAB300333F2F /* Rastreia entregasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C726D52693DAB300333F2F /* Rastreia entregasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C726E52693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregasUITests" */;
+			buildPhases = (
+				03C726D22693DAB300333F2F /* Sources */,
+				03C726D32693DAB300333F2F /* Frameworks */,
+				03C726D42693DAB300333F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C726D82693DAB300333F2F /* PBXTargetDependency */,
+			);
+			name = "Rastreia entregasUITests";
+			productName = "Rastreia entregasUITests";
+			productReference = 03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C726AA2693DAB000333F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					03C726B12693DAB000333F2F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					03C726CA2693DAB300333F2F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03C726B12693DAB000333F2F;
+					};
+					03C726D52693DAB300333F2F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03C726B12693DAB000333F2F;
+					};
+				};
+			};
+			buildConfigurationList = 03C726AD2693DAB000333F2F /* Build configuration list for PBXProject "Rastreia entregas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C726A92693DAB000333F2F;
+			productRefGroup = 03C726B32693DAB000333F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C726B12693DAB000333F2F /* Rastreia entregas */,
+				03C726CA2693DAB300333F2F /* Rastreia entregasTests */,
+				03C726D52693DAB300333F2F /* Rastreia entregasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C726B02693DAB000333F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C727052694CA1400333F2F /* json.json in Resources */,
+				03C726C52693DAB200333F2F /* LaunchScreen.storyboard in Resources */,
+				03C726C22693DAB200333F2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726C92693DAB300333F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726D42693DAB300333F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		600C3B22AE4A35464F72D88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7273B13AB74584EA3F157C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rastreia entregas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C726AE2693DAB000333F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */,
+				03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */,
+				03C726C02693DAB000333F2F /* Rastreia_entregas.xcdatamodeld in Sources */,
+				03C7270126949DC800333F2F /* Networking.swift in Sources */,
+				03C726B62693DAB000333F2F /* AppDelegate.swift in Sources */,
+				03C726B82693DAB000333F2F /* SceneDelegate.swift in Sources */,
+				03C726FB2694891900333F2F /* PackageStoredInfos.swift in Sources */,
+				03C726EB2693DB7400333F2F /* PackageTracking.swift in Sources */,
+				03C726FE26949BE800333F2F /* PackageProviding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726C72693DAB300333F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C726D02693DAB300333F2F /* Rastreia_entregasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C726D22693DAB300333F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C726DB2693DAB300333F2F /* Rastreia_entregasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C726CD2693DAB300333F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C726B12693DAB000333F2F /* Rastreia entregas */;
+			targetProxy = 03C726CC2693DAB300333F2F /* PBXContainerItemProxy */;
+		};
+		03C726D82693DAB300333F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C726B12693DAB000333F2F /* Rastreia entregas */;
+			targetProxy = 03C726D72693DAB300333F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03C726C32693DAB200333F2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C726C42693DAB200333F2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C726DD2693DAB300333F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C726DE2693DAB300333F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C726E02693DAB300333F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A2FAFDC4BC57B63A04CE8B /* Pods-Rastreia entregas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rastreia entregas/Rastreia entregas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03C726E12693DAB300333F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rastreia entregas/Rastreia entregas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		03C726E32693DAB300333F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregasTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rastreia entregas.app/Rastreia entregas";
+			};
+			name = Debug;
+		};
+		03C726E42693DAB300333F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregasTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rastreia entregas.app/Rastreia entregas";
+			};
+			name = Release;
+		};
+		03C726E62693DAB300333F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rastreia entregas";
+			};
+			name = Debug;
+		};
+		03C726E72693DAB300333F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = "Rastreia entregasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rastreia entregas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C726AD2693DAB000333F2F /* Build configuration list for PBXProject "Rastreia entregas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C726DD2693DAB300333F2F /* Debug */,
+				03C726DE2693DAB300333F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C726DF2693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C726E02693DAB300333F2F /* Debug */,
+				03C726E12693DAB300333F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C726E22693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C726E32693DAB300333F2F /* Debug */,
+				03C726E42693DAB300333F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C726E52693DAB300333F2F /* Build configuration list for PBXNativeTarget "Rastreia entregasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C726E62693DAB300333F2F /* Debug */,
+				03C726E72693DAB300333F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03C726BE2693DAB000333F2F /* Rastreia_entregas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03C726BF2693DAB000333F2F /* Rastreia_entregas.xcdatamodel */,
+			);
+			currentVersion = 03C726BF2693DAB000333F2F /* Rastreia_entregas.xcdatamodel */;
+			path = Rastreia_entregas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03C726AA2693DAB000333F2F /* Project object */;
+}
