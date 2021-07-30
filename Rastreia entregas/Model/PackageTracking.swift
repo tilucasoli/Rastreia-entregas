@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 // MARK: - PackageTracking
 struct PackageTracking: Codable {
     let codigo, servico, host: String

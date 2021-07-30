@@ -22,7 +22,7 @@ class HomeViewModel {
     func getCellContents(in index: Int) -> (status: String,
                                             title: String,
                                             subtitle: String) {
-        
+
         let title = packagesStored[index].title
         let subtitle = packagesTracked[index].eventos.first!.status
 

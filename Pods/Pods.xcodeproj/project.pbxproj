@@ -85,7 +85,7 @@
 		21A73689244C87131F4CF12983E0F4BC /* Bagel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bagel.modulemap; sourceTree = "<group>"; };
 		23E3F66BDA87E39DF624F9C40B0C6D92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		24CCCC541D42A844B8CA783924A18885 /* Bagel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bagel.m; path = iOS/Source/Bagel.m; sourceTree = "<group>"; };
-		278B7C23FBAB43499373E3C6BF4E954B /* Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bagel.framework; path = Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		278B7C23FBAB43499373E3C6BF4E954B /* Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBAD78CDFA37AFC52875EE5DBACDFF9 /* BagelBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BagelBaseModel.h; path = iOS/Source/BagelBaseModel.h; sourceTree = "<group>"; };
 		381DDB11AA42B377ADFBD6E4F4D5D329 /* BagelRequestInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BagelRequestInfo.m; path = iOS/Source/BagelRequestInfo.m; sourceTree = "<group>"; };
 		387AC829B65B25DAABDD37DA7780D194 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		6874F856EEFE20914F65DD41EB2032B6 /* BagelUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BagelUtility.m; path = iOS/Source/BagelUtility.m; sourceTree = "<group>"; };
 		692D23753A4F7AE1571142DE8E5AFCEE /* BagelConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BagelConfiguration.m; path = iOS/Source/BagelConfiguration.m; sourceTree = "<group>"; };
 		69694F62D84249705BBBBB685ACEEEF4 /* BagelCarrierDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BagelCarrierDelegate.h; path = iOS/Source/BagelCarrierDelegate.h; sourceTree = "<group>"; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB10937D48429339C8377812394CF1C /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		6F6239C664D7CF2685E2C9041E39CF12 /* BagelRequestCarrier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BagelRequestCarrier.m; path = iOS/Source/BagelRequestCarrier.m; sourceTree = "<group>"; };
 		740298B2A968AA67792B22E219D93ABE /* BagelURLConnectionInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BagelURLConnectionInjector.h; path = iOS/Source/BagelURLConnectionInjector.h; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		818995D9703C7322EEE025617FA1C4BD /* Bagel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bagel-dummy.m"; sourceTree = "<group>"; };
 		887D791A957A1278B2030333BC7D737F /* BagelUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BagelUtility.h; path = iOS/Source/BagelUtility.h; sourceTree = "<group>"; };
 		9348B45B30BBBB0054E04A32AAC3D7DF /* BagelDeviceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BagelDeviceModel.h; path = iOS/Source/BagelDeviceModel.h; sourceTree = "<group>"; };
-		95ECC74248D51B78D06DCEFF438E1D7B /* Pods_Rastreia_entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rastreia_entregas.framework; path = "Pods-Rastreia entregas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95ECC74248D51B78D06DCEFF438E1D7B /* Pods_Rastreia_entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rastreia_entregas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0E3D3BFBD88F8B26E229502B6141D7 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		B95401D9404008A0E5C9CCDC03787C87 /* Pods-Rastreia entregas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rastreia entregas.release.xcconfig"; sourceTree = "<group>"; };
 		BA0B6A8704D7C2959D2609DB6487B5C7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -246,7 +246,6 @@
 				6874F856EEFE20914F65DD41EB2032B6 /* BagelUtility.m */,
 				16728224A2ECDC7204A0CDF6AD6AA647 /* Support Files */,
 			);
-			name = Bagel;
 			path = Bagel;
 			sourceTree = "<group>";
 		};
@@ -301,7 +300,6 @@
 				5F83E9FC29377C0A9D5C374D43D04B1E /* GCDAsyncUdpSocket.m */,
 				7CC37CF4A52829575B04336DB0BDFDBB /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -435,7 +433,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -597,7 +595,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +692,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Bagel/Bagel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Bagel/Bagel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -766,7 +764,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -866,7 +864,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Bagel/Bagel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Bagel/Bagel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
