@@ -6,17 +6,23 @@
 //
 
 import UIKit
+import SnapKit
 
-class HomeViewController: UIViewController, PackageProviding, Networking {
+class HomeViewController: UIViewController {
 
-    lazy var network: Networking = self
+    let segmentControl = RESegmentControl(segments: ["A caminho", "Arquivados"])
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        _ = HomeViewModel(service: self)
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
+
+        view.addSubview(segmentControl)
+        segmentControl.style = .expanded
+
+        segmentControl.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+            make.width.equalTo(327)
+        }
     }
 
-
 }
-

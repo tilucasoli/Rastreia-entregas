@@ -7,17 +7,22 @@
 
 import Foundation
 
-protocol Networking {
-    func get<T: Decodable>(_ endpoint: URL, completion: @escaping (Result<T, Error>) -> Void) 
+// MARK: Protocol
+protocol NetworkingProtocol {
+    func get<T: Decodable>(_ endpoint: URL, completion: @escaping (Result<T, Error>) -> Void)
 }
 
-extension Networking {
+// MARK: Implementation
+final class Networking: NetworkingProtocol {
+
+    static let networking = Networking()
+
     func get<T: Decodable>(_ endpoint: URL, completion: @escaping (Result<T, Error>) -> Void) {
 
         var request = URLRequest(url: endpoint)
         request.httpMethod = "GET"
 
-        URLSession.shared.dataTask(with: request) { data, response, error in
+        URLSession.shared.dataTask(with: request) { data, _, error in
             do {
                 if let error = error {
                     completion(.failure(error))
@@ -36,6 +41,5 @@ extension Networking {
             }
         }.resume()
     }
-
 
 }
