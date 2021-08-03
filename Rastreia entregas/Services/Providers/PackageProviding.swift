@@ -20,8 +20,9 @@ class PackageProviding: PackageProvidingProtocol {
 
     func getPackage(code: String, _ completion: @escaping (Result<PackageTracking, Error>) -> Void) {
 
-        let token = "307141616b975c810b81d6b5708a68f2850046931efaed75c332e73f35926ddf"
-        let email = "tilucasoli@gmail.com"
+        let token = EnvironmentVariables.token ?? ""
+        let email = EnvironmentVariables.email ?? ""
+
         let endpoint = "https://api.linketrack.com/track/json?user=\(email)&token=\(token)&codigo=\(code)"
 
         guard let url = URL(string: endpoint) else {return}

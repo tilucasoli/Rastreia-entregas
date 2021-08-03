@@ -17,6 +17,7 @@ class HomeViewModel {
     init(service: PackageProviding) {
         self.service = service
         packageCodes = packagesStored.map {$0.code}
+        getPackagesTracked(packageCodes: ["LE262678296SE"])
     }
 
     func getCellContents(in index: Int) -> (status: String,

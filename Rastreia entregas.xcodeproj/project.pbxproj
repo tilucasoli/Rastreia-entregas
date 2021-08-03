@@ -11,6 +11,7 @@
 		03790C6A26B2F7F400927523 /* RESegmentControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6926B2F7F400927523 /* RESegmentControlItem.swift */; };
 		03790C6F26B4242C00927523 /* RETableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6E26B4242C00927523 /* RETableViewHeader.swift */; };
 		03790C7126B428EF00927523 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 03790C7026B428EF00927523 /* File */; };
+		03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C7426B9E73C00927523 /* EnvironmentVariables.swift */; };
 		03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E60269CAB5400211CE8 /* RELargeButton.swift */; };
 		03C34E68269E623900211CE8 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E67269E623900211CE8 /* Styleable.swift */; };
 		03C34E6D269F2BE200211CE8 /* REButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E6C269F2BE200211CE8 /* REButton.swift */; };
@@ -75,6 +76,7 @@
 		03790C6E26B4242C00927523 /* RETableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETableViewHeader.swift; sourceTree = "<group>"; };
 		03790C7026B428EF00927523 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		03790C7226B428F200927523 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		03790C7426B9E73C00927523 /* EnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
 		03C34E60269CAB5400211CE8 /* RELargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RELargeButton.swift; sourceTree = "<group>"; };
 		03C34E67269E623900211CE8 /* Styleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
 		03C34E6C269F2BE200211CE8 /* REButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REButton.swift; sourceTree = "<group>"; };
@@ -166,6 +168,14 @@
 				03790C6E26B4242C00927523 /* RETableViewHeader.swift */,
 			);
 			path = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		03790C7326B9E70F00927523 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				03790C7426B9E73C00927523 /* EnvironmentVariables.swift */,
+			);
+			path = Variables;
 			sourceTree = "<group>";
 		};
 		03C34E69269F2AA100211CE8 /* Extensions */ = {
@@ -263,6 +273,7 @@
 		03C726E82693DAC100333F2F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				03790C7326B9E70F00927523 /* Variables */,
 				03C726FF26949DB700333F2F /* Networking */,
 				03C726FC26949BB200333F2F /* Providers */,
 			);
@@ -649,6 +660,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C34E73269F77B400211CE8 /* PackageCard.swift in Sources */,
+				03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */,
 				03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */,
 				03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */,
 				03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */,

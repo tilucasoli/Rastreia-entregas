@@ -79,6 +79,18 @@
             ReferencedContainer = "container:Rastreia entregas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "API_TOKEN_CORREIOS"
+            value = "307141616b975c810b81d6b5708a68f2850046931efaed75c332e73f35926ddf"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "API_EMAIL_CORREIOS"
+            value = "tilucasoli@gmail.com"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
