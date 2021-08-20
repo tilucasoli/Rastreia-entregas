@@ -51,6 +51,7 @@ class RESegmentControl: UIView {
             applyStyle(style)
         }
     }
+
     private var segmentItems = [RESegmentControlItem]() {
         didSet {
             for segmentItem in segmentItems {
@@ -113,7 +114,7 @@ class RESegmentControl: UIView {
     private func buildLayoutCompacted() {
         stackView.arrangedSubviews.forEach {$0.isHidden = true}
         iconImageView.isHidden = false
-        auxiliarView.isHidden = false
+        auxiliarView.isHidden = true
     }
 
     private func buildLayoutExpanded() {

@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031BCE6926CF22B5002308D0 /* GenericRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE6826CF22B5002308D0 /* GenericRepository.swift */; };
+		031BCE7126CF2A9D002308D0 /* PackageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE7026CF2A9D002308D0 /* PackageRepository.swift */; };
+		031BCE7726CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */; };
+		0349282126C3FF9000E7F3BB /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349282026C3FF9000E7F3BB /* UILabel.swift */; };
+		0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349282626C5F38E00E7F3BB /* HomeView.swift */; };
 		03790C6826B2F63500927523 /* RESegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6726B2F63500927523 /* RESegmentControl.swift */; };
 		03790C6A26B2F7F400927523 /* RESegmentControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6926B2F7F400927523 /* RESegmentControlItem.swift */; };
 		03790C6F26B4242C00927523 /* RETableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6E26B4242C00927523 /* RETableViewHeader.swift */; };
-		03790C7126B428EF00927523 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 03790C7026B428EF00927523 /* File */; };
 		03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C7426B9E73C00927523 /* EnvironmentVariables.swift */; };
+		039B59AE26CB0B7800F71933 /* PackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */; };
+		039B59B026CB3D0D00F71933 /* AddPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */; };
+		039B59B226CB3D5000F71933 /* AddPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B126CB3D5000F71933 /* AddPackageView.swift */; };
+		039B59B526CBDE0700F71933 /* InteractablePackageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B426CBDE0700F71933 /* InteractablePackageCard.swift */; };
+		039B59B726CC3A5000F71933 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B626CC3A5000F71933 /* UIView.swift */; };
 		03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E60269CAB5400211CE8 /* RELargeButton.swift */; };
 		03C34E68269E623900211CE8 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E67269E623900211CE8 /* Styleable.swift */; };
 		03C34E6D269F2BE200211CE8 /* REButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E6C269F2BE200211CE8 /* REButton.swift */; };
@@ -50,6 +59,10 @@
 		03C727452698F06A00333F2F /* RETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C727442698F06A00333F2F /* RETextField.swift */; };
 		03CE185426A6430D00868F66 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE185326A6430D00868F66 /* UITableView.swift */; };
 		03CE185726A645F300868F66 /* RESearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE185626A645F300868F66 /* RESearchBar.swift */; };
+		03E5B9A926D03464005AD0CF /* CoreDataEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9A826D03464005AD0CF /* CoreDataEnum.swift */; };
+		03E5B9AC26D03A4A005AD0CF /* Package+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */; };
+		03E5B9AD26D03A4A005AD0CF /* Package+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */; };
+		03E5B9AF26D03D4A005AD0CF /* AddPackageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AE26D03D4A005AD0CF /* AddPackageViewModel.swift */; };
 		6002B1249AFF0811F633BAA8 /* Pods_Rastreia_entregas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,12 +84,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031BCE6826CF22B5002308D0 /* GenericRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRepository.swift; sourceTree = "<group>"; };
+		031BCE7026CF2A9D002308D0 /* PackageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRepository.swift; sourceTree = "<group>"; };
+		031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + CoreDataStack.swift"; sourceTree = "<group>"; };
+		0349282026C3FF9000E7F3BB /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		0349282626C5F38E00E7F3BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		03790C6726B2F63500927523 /* RESegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESegmentControl.swift; sourceTree = "<group>"; };
 		03790C6926B2F7F400927523 /* RESegmentControlItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESegmentControlItem.swift; sourceTree = "<group>"; };
 		03790C6E26B4242C00927523 /* RETableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETableViewHeader.swift; sourceTree = "<group>"; };
-		03790C7026B428EF00927523 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
-		03790C7226B428F200927523 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		03790C7426B9E73C00927523 /* EnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
+		039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTableViewCell.swift; sourceTree = "<group>"; };
+		039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageViewController.swift; sourceTree = "<group>"; };
+		039B59B126CB3D5000F71933 /* AddPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageView.swift; sourceTree = "<group>"; };
+		039B59B426CBDE0700F71933 /* InteractablePackageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractablePackageCard.swift; sourceTree = "<group>"; };
+		039B59B626CC3A5000F71933 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		03C34E60269CAB5400211CE8 /* RELargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RELargeButton.swift; sourceTree = "<group>"; };
 		03C34E67269E623900211CE8 /* Styleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
 		03C34E6C269F2BE200211CE8 /* REButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REButton.swift; sourceTree = "<group>"; };
@@ -121,6 +142,10 @@
 		03C727442698F06A00333F2F /* RETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETextField.swift; sourceTree = "<group>"; };
 		03CE185326A6430D00868F66 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		03CE185626A645F300868F66 /* RESearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESearchBar.swift; sourceTree = "<group>"; };
+		03E5B9A826D03464005AD0CF /* CoreDataEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataEnum.swift; sourceTree = "<group>"; };
+		03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03E5B9AE26D03D4A005AD0CF /* AddPackageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageViewModel.swift; sourceTree = "<group>"; };
 		623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rastreia_entregas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rastreia entregas.release.xcconfig"; path = "Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas.release.xcconfig"; sourceTree = "<group>"; };
 		C0A2FAFDC4BC57B63A04CE8B /* Pods-Rastreia entregas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rastreia entregas.debug.xcconfig"; path = "Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +178,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031BCE6E26CF2A41002308D0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				031BCE6F26CF2A50002308D0 /* GenericRepository */,
+				031BCE7026CF2A9D002308D0 /* PackageRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		031BCE6F26CF2A50002308D0 /* GenericRepository */ = {
+			isa = PBXGroup;
+			children = (
+				031BCE6826CF22B5002308D0 /* GenericRepository.swift */,
+			);
+			path = GenericRepository;
+			sourceTree = "<group>";
+		};
+		0370D6B326CD38B0004FD97F /* RECoreDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */,
+				031BCE6E26CF2A41002308D0 /* Repositories */,
+				0370D6B526CD3AD6004FD97F /* Model */,
+				0370D6B426CD38C8004FD97F /* Enums */,
+			);
+			path = RECoreDataKit;
+			sourceTree = "<group>";
+		};
+		0370D6B426CD38C8004FD97F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				03E5B9A826D03464005AD0CF /* CoreDataEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0370D6B526CD3AD6004FD97F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */,
+				03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		03790C6626B2EF8B00927523 /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +248,14 @@
 			path = Variables;
 			sourceTree = "<group>";
 		};
+		039B59AC26CB0B6200F71933 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		03C34E69269F2AA100211CE8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +263,8 @@
 				03C7273B2698C50200333F2F /* UIColor.swift */,
 				03C7273D2698CAEF00333F2F /* UIImage.swift */,
 				03CE185326A6430D00868F66 /* UITableView.swift */,
+				0349282026C3FF9000E7F3BB /* UILabel.swift */,
+				039B59B626CC3A5000F71933 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,6 +324,7 @@
 				03C726E92693DAD400333F2F /* Model */,
 				03C726E82693DAC100333F2F /* Services */,
 				03C726EC2694838700333F2F /* Scenes */,
+				0370D6B326CD38B0004FD97F /* RECoreDataKit */,
 				03C726B52693DAB000333F2F /* AppDelegate.swift */,
 				03C727142695FFE400333F2F /* Rastreia entregas.entitlements */,
 				03C726B72693DAB000333F2F /* SceneDelegate.swift */,
@@ -312,7 +393,8 @@
 			isa = PBXGroup;
 			children = (
 				03C726F2269483EA00333F2F /* ViewModel */,
-				03C726F1269483EA00333F2F /* View */,
+				03C726F1269483EA00333F2F /* Views */,
+				039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -320,6 +402,7 @@
 		03C726EF269483C300333F2F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0349282626C5F38E00E7F3BB /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,18 +415,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		03C726F1269483EA00333F2F /* View */ = {
+		03C726F1269483EA00333F2F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				03790C7226B428F200927523 /* File */,
+				039B59B126CB3D5000F71933 /* AddPackageView.swift */,
+				039B59B426CBDE0700F71933 /* InteractablePackageCard.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		03C726F2269483EA00333F2F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				03790C7026B428EF00927523 /* File */,
+				03E5B9AE26D03D4A005AD0CF /* AddPackageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -359,6 +443,7 @@
 		03C726F42694844800333F2F /* REUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				039B59AC26CB0B6200F71933 /* TableViewCell */,
 				03790C6D26B4241300927523 /* TableViewHeader */,
 				03790C6626B2EF8B00927523 /* SegmentControl */,
 				03CE185526A645B900868F66 /* SearchBar */,
@@ -556,7 +641,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03790C7126B428EF00927523 /* File in Resources */,
 				03C7272B26989C8700333F2F /* Inter-Medium.ttf in Resources */,
 				03C7272C26989C8700333F2F /* Inter-ExtraLight.ttf in Resources */,
 				03C7272D26989C8700333F2F /* Inter-Thin.ttf in Resources */,
@@ -662,22 +746,36 @@
 				03C34E73269F77B400211CE8 /* PackageCard.swift in Sources */,
 				03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */,
 				03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */,
+				0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */,
 				03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */,
+				03E5B9A926D03464005AD0CF /* CoreDataEnum.swift in Sources */,
+				031BCE7126CF2A9D002308D0 /* PackageRepository.swift in Sources */,
 				03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */,
+				039B59B526CBDE0700F71933 /* InteractablePackageCard.swift in Sources */,
+				039B59B026CB3D0D00F71933 /* AddPackageViewController.swift in Sources */,
 				03C727452698F06A00333F2F /* RETextField.swift in Sources */,
 				03790C6F26B4242C00927523 /* RETableViewHeader.swift in Sources */,
+				03E5B9AD26D03A4A005AD0CF /* Package+CoreDataProperties.swift in Sources */,
+				03E5B9AF26D03D4A005AD0CF /* AddPackageViewModel.swift in Sources */,
+				039B59B726CC3A5000F71933 /* UIView.swift in Sources */,
 				03CE185726A645F300868F66 /* RESearchBar.swift in Sources */,
 				03C72716269899FC00333F2F /* UIFont.swift in Sources */,
 				03C34E68269E623900211CE8 /* Styleable.swift in Sources */,
+				03E5B9AC26D03A4A005AD0CF /* Package+CoreDataClass.swift in Sources */,
 				03790C6826B2F63500927523 /* RESegmentControl.swift in Sources */,
 				03C726C02693DAB000333F2F /* Rastreia_entregas.xcdatamodeld in Sources */,
 				03C7270126949DC800333F2F /* Networking.swift in Sources */,
+				039B59AE26CB0B7800F71933 /* PackageTableViewCell.swift in Sources */,
 				03C726B62693DAB000333F2F /* AppDelegate.swift in Sources */,
 				03CE185426A6430D00868F66 /* UITableView.swift in Sources */,
+				0349282126C3FF9000E7F3BB /* UILabel.swift in Sources */,
+				039B59B226CB3D5000F71933 /* AddPackageView.swift in Sources */,
+				031BCE7726CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift in Sources */,
 				03C726B82693DAB000333F2F /* SceneDelegate.swift in Sources */,
 				03790C6A26B2F7F400927523 /* RESegmentControlItem.swift in Sources */,
 				03C7273C2698C50200333F2F /* UIColor.swift in Sources */,
 				03C726FB2694891900333F2F /* PackageStoredInfos.swift in Sources */,
+				031BCE6926CF22B5002308D0 /* GenericRepository.swift in Sources */,
 				03C34E6D269F2BE200211CE8 /* REButton.swift in Sources */,
 				03C7273E2698CAEF00333F2F /* UIImage.swift in Sources */,
 				03C726EB2693DB7400333F2F /* PackageTracking.swift in Sources */,
@@ -852,7 +950,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62NRBAKMQ3;
 				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -876,7 +974,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62NRBAKMQ3;
 				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

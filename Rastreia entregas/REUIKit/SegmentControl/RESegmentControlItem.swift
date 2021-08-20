@@ -30,12 +30,7 @@ class RESegmentControlItem: UIView {
     }
 
     // MARK: UI Elements
-    private lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = .REDesignSystem(font: .heading6)
-        return label
-    }()
+    private lazy var titleLabel: UILabel = .init(fontStyle: .heading6, textColor: .white)
 
     // MARK: Life Cycle
     init(id: Int, title: String) {
@@ -65,8 +60,7 @@ class RESegmentControlItem: UIView {
 
     private func setupConstraints() {
         titleLabel.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(16)
-            make.bottom.top.equalToSuperview().inset(15)
+            make.edges.equalToSuperview().inset(16)
         }
     }
 

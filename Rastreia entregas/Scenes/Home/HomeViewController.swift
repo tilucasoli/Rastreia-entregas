@@ -6,23 +6,32 @@
 //
 
 import UIKit
-import SnapKit
 
 class HomeViewController: UIViewController {
 
-    let segmentControl = RESegmentControl(segments: ["A caminho", "Arquivados"])
+    let homeView = HomeView()
+
+    override func loadView() {
+        homeView.delegate = self
+        self.view = homeView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
-
-        view.addSubview(segmentControl)
-        segmentControl.style = .expanded
-
-        segmentControl.snp.makeConstraints { make in
-            make.center.equalToSuperview()
-            make.width.equalTo(327)
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
         }
+        let context = appDelegate.persistentContainer().viewContext
+        let repository = PackageRepository(managedObjectContext: context)
+
     }
 
+}
+
+extension HomeViewController: HomeViewDelegate {
+    func pushViewController() {
+        let viewController = AddPackageViewController()
+        viewController.modalPresentationStyle = .overFullScreen
+        present(viewController, animated: true, completion: nil)
+    }
 }

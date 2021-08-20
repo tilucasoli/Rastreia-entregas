@@ -21,8 +21,8 @@ extension RELargeButton: Styleable {
         case .primary:
             backgroundColor = isEnabled ? .REBlue : .REGray3
             titleLabel?.font = .REDesignSystem(font: .heading6)
+            setTitleColor(.REGray4, for: .normal)
             setTitleColor(.REGray2, for: .disabled)
-            setTitleColor(.REBlue, for: .normal)
             layer.cornerRadius = 4
         }
     }

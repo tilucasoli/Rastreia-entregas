@@ -9,24 +9,29 @@ import UIKit
 
 class RETableViewHeader: UITableViewHeaderFooterView {
 
-    // MARK: UI Elements
-    private let titleLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .REGray1
-        label.font = .REDesignSystem(font: .heading6)
-        return label
-    }()
+    // MARK: Properties
+    static let reuseId = "RETableViewHeader"
 
-    private let separatorView: UILabel = {
-        let label = UILabel()
-        label.textColor = .REGray1
-        label.font = .REDesignSystem(font: .heading6)
-        return label
+    var title: String? {
+        didSet {
+            titleLabel.text = title
+        }
+    }
+
+    // MARK: UI Elements
+    private let titleLabel: UILabel = .init(fontStyle: .heading5, textColor: .REGray1)
+
+    private let separatorView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .REGray3
+        return view
     }()
 
     // MARK: Life Cycle
-    init(reuseIdentifier: String) {
-        super.init(reuseIdentifier: reuseIdentifier)
+    init() {
+        super.init(reuseIdentifier: nil)
+        contentView.backgroundColor = .REGray4
 
         buildHierarchy()
         setupConstraints()

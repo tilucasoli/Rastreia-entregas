@@ -18,11 +18,9 @@ class RESearchBar: UIView {
 
     var isHighlighted = false {
         didSet {
-            UIView.animate(withDuration: 0.2, animations: {
+            UIView.animate(withDuration: 0.2) {
                 self.isHighlighted ? self.buildLayoutExpanded() : self.buildLayoutCompacted()
-            }, completion: {[weak self] _ in
-                self?.textField.becomeFirstResponder()
-            })
+            }
         }
     }
 
@@ -60,8 +58,6 @@ class RESearchBar: UIView {
         return textField
     }()
 
-    private let auxiliarView = UIView()
-
     // MARK: Life Cycle
 
     init() {
@@ -86,7 +82,6 @@ class RESearchBar: UIView {
     private func buildLayoutCompacted() {
         separator.isHidden = true
         textField.isHidden = true
-        auxiliarView.isHidden = false
 
         textField.layer.cornerRadius = 0
         iconImageView.layer.cornerRadius = 4
@@ -95,7 +90,6 @@ class RESearchBar: UIView {
     private func buildLayoutExpanded() {
         separator.isHidden = false
         textField.isHidden = false
-        auxiliarView.isHidden = true
 
         textField.layer.cornerRadius = 0
         iconImageView.layer.cornerRadius = 0
@@ -109,7 +103,6 @@ class RESearchBar: UIView {
     private func buildStackViewSubviews() {
         stackView.addArrangedSubview(iconImageView)
         stackView.addArrangedSubview(textField)
-        stackView.addArrangedSubview(auxiliarView)
     }
 
     private func setupConstraints() {
@@ -133,7 +126,12 @@ class RESearchBar: UIView {
             make.height.equalTo(26)
             make.width.equalTo(0.8)
         }
+    }
 
+    // MARK: Actions
+    public func clearText() {
+        textField.text = .none
+        textField.endEditing(true)
     }
 
 }

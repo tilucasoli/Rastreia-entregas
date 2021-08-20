@@ -74,21 +74,9 @@ class PackageCard: UIView {
         return stackView
     }()
 
-    private lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .REGray1
-        label.font = .REDesignSystem(font: .heading6)
-        label.isHidden = true
-        return label
-    }()
+    private lazy var titleLabel: UILabel = .init(fontStyle: .heading6, textColor: .REGray1)
 
-    private lazy var subtitleLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .REGray2
-        label.font = .REDesignSystem(font: .smallTextRegular)
-        label.isHidden = true
-        return label
-    }()
+    private lazy var subtitleLabel: UILabel = .init(fontStyle: .smallTextRegular, textColor: .REGray2)
 
     private lazy var emptyView: UIView = {
         let view = UIView()
@@ -102,6 +90,9 @@ class PackageCard: UIView {
     init(icon: DeliveryStatus) {
         self.icon = icon
         super.init(frame: CGRect())
+
+        titleLabel.isHidden = true
+        subtitleLabel.isHidden = true
 
         configureImageView()
         buildHierarchy()

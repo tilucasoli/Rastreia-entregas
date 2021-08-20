@@ -15,7 +15,7 @@ protocol NetworkingProtocol {
 // MARK: Implementation
 final class Networking: NetworkingProtocol {
 
-    static let networking = Networking()
+    static let shared = Networking()
 
     func get<T: Decodable>(_ endpoint: URL, completion: @escaping (Result<T, Error>) -> Void) {
 
