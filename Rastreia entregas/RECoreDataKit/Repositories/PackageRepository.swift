@@ -11,14 +11,19 @@ import CoreData
 class PackageRepository: GenericRepository {
     typealias GenericObject = Package
 
-    private var context: NSManagedObjectContext
+    private(set) var container: NSPersistentContainer
+    static var shared = PackageRepository()
 
-    init(managedObjectContext: NSManagedObjectContext) {
-        self.context = managedObjectContext
+    // MARK: INIT
+    // TODO: Refazer a parte do appDelegate
+    private init() {
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        self.container = appDelegate?.persistentContainer() ?? AppDelegate().persistentContainer()
     }
 
+    // MARK: PUBLIC APIs
     func create() -> Package {
-        return Package(context: context)
+        return Package(context: container.viewContext)
     }
 
     func get(predicate: CoreDataPredicate? = nil,
@@ -27,7 +32,7 @@ class PackageRepository: GenericRepository {
         let request: NSFetchRequest<Package> = Package.fetchRequest()
         request.predicate = predicate?.getNSPredicate()
         do {
-            let packageFetched = try context.fetch(request)
+            let packageFetched = try container.viewContext.fetch(request)
             return.success(packageFetched)
         } catch {
             return .failure(error)
@@ -35,7 +40,7 @@ class PackageRepository: GenericRepository {
     }
 
     func delete(object: Package) -> Result<Bool, Error> {
-        context.delete(object)
+        container.viewContext.delete(object)
         return .success(true)
     }
 }

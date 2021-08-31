@@ -6,10 +6,23 @@
 //
 
 import UIKit
+import CoreData
 
 class HomeViewController: UIViewController {
 
-    let homeView = HomeView()
+    private let homeView = HomeView()
+    private let homeViewModel: HomeViewModel
+
+    init() {
+        homeViewModel = HomeViewModel(service: .init())
+        homeViewModel.refreshTableViewData = homeView.getPackages
+
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func loadView() {
         homeView.delegate = self
@@ -18,12 +31,6 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return
-        }
-        let context = appDelegate.persistentContainer().viewContext
-        let repository = PackageRepository(managedObjectContext: context)
-
     }
 
 }

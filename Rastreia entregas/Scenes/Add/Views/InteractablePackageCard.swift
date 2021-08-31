@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import SnapKit
+import REUIKit
 
 class InteractablePackageCard: UIView {
 
     // MARK: Properties
-    var centerOfPackageCard: CGPoint = .zero
+    private var centerOfPackageCard: CGPoint = .zero
 
     // MARK: UI Elements
-    lazy var backgroundGrayView: UIView = {
+    private lazy var backgroundGrayView: UIView = {
         let view = UIView()
         view.backgroundColor = .REGray3
         view.layer.cornerRadius = 3
@@ -94,7 +96,8 @@ class InteractablePackageCard: UIView {
             packageCard.frame.minX + frame.minX < frame.minX ||
             packageCard.frame.maxY + packageCard.frame.minY > frame.maxY ||
             packageCard.frame.minY + frame.minY < frame.minY {
-            sender.state = .ended
+            sender.state = .cancelled
+            returnViewToCenter(sender)
             return
         }
 
@@ -104,23 +107,27 @@ class InteractablePackageCard: UIView {
 
             packageCard.center = CGPoint(x: newX, y: newY)
         } else if sender.state == .ended {
-            let constToBounce: CGFloat = -1.05
-            let midX = centerOfPackageCard.x + constToBounce * sender.translation(in: self).x
-            let midY = centerOfPackageCard.y + constToBounce * sender.translation(in: self).y
+            returnViewToCenter(sender)
+        }
+    }
 
+    private func returnViewToCenter(_ sender: UIPanGestureRecognizer) {
+        let constToBounce: CGFloat = -1.05
+        let midX = centerOfPackageCard.x + constToBounce * sender.translation(in: self).x
+        let midY = centerOfPackageCard.y + constToBounce * sender.translation(in: self).y
+
+        UIView.animate(withDuration: 0.2, animations: {
+            self.packageCard.center = CGPoint(x: midX, y: midY)
+
+        }, completion: {_ in
             UIView.animate(withDuration: 0.2, animations: {
-                self.packageCard.center = CGPoint(x: midX, y: midY)
+                self.packageCard.center = self.centerOfPackageCard
 
             }, completion: {_ in
-                UIView.animate(withDuration: 0.2, animations: {
-                    self.packageCard.center = self.centerOfPackageCard
-
-                }, completion: {_ in
-                    let haptics = UIImpactFeedbackGenerator(style: .heavy)
-                    haptics.impactOccurred()
-                })
+                let haptics = UIImpactFeedbackGenerator(style: .heavy)
+                haptics.impactOccurred()
             })
-        }
+        })
     }
 
 }

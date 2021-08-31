@@ -9,7 +9,6 @@ import UIKit
 import CoreData
 
 class AddPackageViewController: UIViewController {
-
     private let addPackageView = AddPackageView()
     private var addPackageViewModel: AddPackageViewModel?
 
@@ -20,12 +19,8 @@ class AddPackageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureClousures()
-
-        guard let context = getContext() else {
-            return
-        }
-
-        addPackageViewModel = AddPackageViewModel(context: context)
+        addPackageViewModel = AddPackageViewModel()
+        addPackageViewModel?.delegate = self
         addPackageView.delegate = addPackageViewModel
     }
 
@@ -33,14 +28,27 @@ class AddPackageViewController: UIViewController {
         addPackageView.dismiss = { [weak self] in
             self?.dismiss(animated: true, completion: nil)
         }
-    }
 
-    private func getContext() -> NSManagedObjectContext? {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return nil
+        addPackageView.presentAlert = { [weak self] in
+            let alertViewController = UIAlertController(title: "Loading",
+                                                        message: "Está carregando",
+                                                        preferredStyle: .alert)
+            self?.present(alertViewController, animated: true, completion: nil)
         }
-        return appDelegate.persistentContainer().viewContext
+    }
+}
 
+extension AddPackageViewController: AddPackageViewModelDelegate {
+    func checkingCodeValidation(_ isValid: Bool) {
+        DispatchQueue.main.async {
+            if isValid {
+                self.dismiss(animated: true) {
+                    self.addPackageViewModel?.savePackage()
+                }
+            } else {
+                self.dismiss(animated: true)
+            }
+        }
     }
 
 }

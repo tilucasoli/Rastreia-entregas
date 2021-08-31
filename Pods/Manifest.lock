@@ -2,19 +2,23 @@ PODS:
   - Bagel (1.4.0):
     - CocoaAsyncSocket
   - CocoaAsyncSocket (7.6.5)
+  - Periphery (2.8.1)
 
 DEPENDENCIES:
   - Bagel (~> 1.4.0)
+  - Periphery
 
 SPEC REPOS:
   trunk:
     - Bagel
     - CocoaAsyncSocket
+    - Periphery
 
 SPEC CHECKSUMS:
   Bagel: c3fa6bcbd52db9ca976edbafd7638f0553ded101
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  Periphery: 71f0fea815c57b71405cdb256daa0a9b1e453a5c
 
-PODFILE CHECKSUM: dc00ce86fc3406869734e22c4b3b2a28085a4a6a
+PODFILE CHECKSUM: 8b9cfea32d092e4948c157448b737a9b1d103b03
 
 COCOAPODS: 1.10.1

@@ -2,7 +2,7 @@
 //  Package+CoreDataClass.swift
 //  
 //
-//  Created by Lucas Oliveira on 20/08/21.
+//  Created by Lucas Oliveira on 26/08/21.
 //
 //
 

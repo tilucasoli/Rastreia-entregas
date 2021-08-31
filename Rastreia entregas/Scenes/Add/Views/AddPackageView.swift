@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import REUIKit
 
 protocol AddPackageViewDelegate: AnyObject {
     var name: String { get set }
     var code: String { get set }
 
     func savePackage()
+    func checkIfPackageWorks(code: String)
 }
 
 class AddPackageView: UIView {
@@ -20,6 +22,7 @@ class AddPackageView: UIView {
     weak var delegate: AddPackageViewDelegate?
 
     var dismiss: (() -> Void)?
+    var presentAlert: (() -> Void)?
 
     // MARK: UI Elements
     lazy var closeButton = REButton(style: .ghost, size: .medium)
@@ -45,6 +48,11 @@ class AddPackageView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        interactablePackageCard.packageCard.title = nameTextField.text
+    }
+
     // MARK: Layout
     func configureViews() {
         backgroundColor = .REGray4
@@ -63,7 +71,7 @@ class AddPackageView: UIView {
         codeTextField.delegate = self
 
         continueButton.setTitle("Rastrear", for: .normal)
-        continueButton.addTarget(self, action: #selector(savePackage), for: .touchUpInside)
+        continueButton.addTarget(self, action: #selector(loading), for: .touchUpInside)
         continueButton.isEnabled = false
     }
 
@@ -126,12 +134,19 @@ class AddPackageView: UIView {
         dismiss?()
     }
 
-    @objc private func savePackage() {
+    @objc private func loading() {
         guard let codeText = codeTextField.text,
               let nameText = nameTextField.text else { return }
 
         delegate?.code = codeText
         delegate?.name = nameText
+
+        presentAlert?()
+        delegate?.checkIfPackageWorks(code: codeText)
+    }
+
+    @objc func savePackage() {
+
         delegate?.savePackage()
         dismiss?()
     }
@@ -150,5 +165,16 @@ extension AddPackageView: UITextFieldDelegate {
             return
         }
         continueButton.isEnabled = codeText.count > 0 && nameText.count > 0
+    }
+
+    func textField(_ textField: UITextField,
+                   shouldChangeCharactersIn range: NSRange,
+                   replacementString string: String) -> Bool {
+
+        if textField.text?.count == 1 && string == "" {
+            textField.text = ""
+        }
+
+        return true
     }
 }

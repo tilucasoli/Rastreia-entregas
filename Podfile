@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'Rastreia entregas' do
   pod 'Bagel', '~>  1.4.0'
+  pod 'Periphery'
 end

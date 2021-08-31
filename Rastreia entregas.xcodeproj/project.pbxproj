@@ -10,58 +10,64 @@
 		031BCE6926CF22B5002308D0 /* GenericRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE6826CF22B5002308D0 /* GenericRepository.swift */; };
 		031BCE7126CF2A9D002308D0 /* PackageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE7026CF2A9D002308D0 /* PackageRepository.swift */; };
 		031BCE7726CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */; };
-		0349282126C3FF9000E7F3BB /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349282026C3FF9000E7F3BB /* UILabel.swift */; };
+		0346E45226DE74AA00F43504 /* REUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0346E45126DE74AA00F43504 /* REUIKit */; };
+		0346E45426DE74B000F43504 /* REUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0346E45326DE74B000F43504 /* REUIKit */; };
 		0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349282626C5F38E00E7F3BB /* HomeView.swift */; };
-		03790C6826B2F63500927523 /* RESegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6726B2F63500927523 /* RESegmentControl.swift */; };
-		03790C6A26B2F7F400927523 /* RESegmentControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6926B2F7F400927523 /* RESegmentControlItem.swift */; };
-		03790C6F26B4242C00927523 /* RETableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C6E26B4242C00927523 /* RETableViewHeader.swift */; };
-		03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03790C7426B9E73C00927523 /* EnvironmentVariables.swift */; };
-		039B59AE26CB0B7800F71933 /* PackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */; };
 		039B59B026CB3D0D00F71933 /* AddPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */; };
 		039B59B226CB3D5000F71933 /* AddPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B126CB3D5000F71933 /* AddPackageView.swift */; };
 		039B59B526CBDE0700F71933 /* InteractablePackageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B426CBDE0700F71933 /* InteractablePackageCard.swift */; };
-		039B59B726CC3A5000F71933 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B626CC3A5000F71933 /* UIView.swift */; };
-		03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E60269CAB5400211CE8 /* RELargeButton.swift */; };
-		03C34E68269E623900211CE8 /* Styleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E67269E623900211CE8 /* Styleable.swift */; };
-		03C34E6D269F2BE200211CE8 /* REButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E6C269F2BE200211CE8 /* REButton.swift */; };
-		03C34E73269F77B400211CE8 /* PackageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C34E72269F77B400211CE8 /* PackageCard.swift */; };
 		03C726B62693DAB000333F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B52693DAB000333F2F /* AppDelegate.swift */; };
 		03C726B82693DAB000333F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B72693DAB000333F2F /* SceneDelegate.swift */; };
 		03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726B92693DAB000333F2F /* HomeViewController.swift */; };
 		03C726C02693DAB000333F2F /* Rastreia_entregas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03C726BE2693DAB000333F2F /* Rastreia_entregas.xcdatamodeld */; };
 		03C726C22693DAB200333F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C726C12693DAB200333F2F /* Assets.xcassets */; };
 		03C726C52693DAB200333F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C726C32693DAB200333F2F /* LaunchScreen.storyboard */; };
-		03C726EB2693DB7400333F2F /* PackageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726EA2693DB7400333F2F /* PackageTracking.swift */; };
 		03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726F82694848D00333F2F /* HomeViewModel.swift */; };
-		03C726FB2694891900333F2F /* PackageStoredInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726FA2694891900333F2F /* PackageStoredInfos.swift */; };
-		03C726FE26949BE800333F2F /* PackageProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C726FD26949BE800333F2F /* PackageProviding.swift */; };
-		03C7270126949DC800333F2F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7270026949DC800333F2F /* Networking.swift */; };
-		03C72716269899FC00333F2F /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C72715269899FC00333F2F /* UIFont.swift */; };
-		03C7272B26989C8700333F2F /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7271B26989C8700333F2F /* Inter-Medium.ttf */; };
-		03C7272C26989C8700333F2F /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7271C26989C8700333F2F /* Inter-ExtraLight.ttf */; };
-		03C7272D26989C8700333F2F /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7271D26989C8700333F2F /* Inter-Thin.ttf */; };
-		03C7272E26989C8700333F2F /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7271E26989C8700333F2F /* Lexend-Bold.ttf */; };
-		03C7272F26989C8700333F2F /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7271F26989C8700333F2F /* Lexend-Medium.ttf */; };
-		03C7273026989C8700333F2F /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272026989C8700333F2F /* Lexend-Thin.ttf */; };
-		03C7273126989C8700333F2F /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272126989C8700333F2F /* Inter-Bold.ttf */; };
-		03C7273226989C8700333F2F /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272226989C8700333F2F /* Lexend-ExtraBold.ttf */; };
-		03C7273326989C8700333F2F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272326989C8700333F2F /* Inter-ExtraBold.ttf */; };
-		03C7273426989C8700333F2F /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272426989C8700333F2F /* Lexend-Regular.ttf */; };
-		03C7273526989C8700333F2F /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272526989C8700333F2F /* Lexend-SemiBold.ttf */; };
-		03C7273626989C8700333F2F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272626989C8700333F2F /* Inter-SemiBold.ttf */; };
-		03C7273726989C8700333F2F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272726989C8700333F2F /* Inter-Regular.ttf */; };
-		03C7273826989C8700333F2F /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272826989C8700333F2F /* Lexend-Light.ttf */; };
-		03C7273926989C8700333F2F /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272926989C8700333F2F /* Inter-Light.ttf */; };
-		03C7273A26989C8700333F2F /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C7272A26989C8700333F2F /* Inter-Black.ttf */; };
-		03C7273C2698C50200333F2F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7273B2698C50200333F2F /* UIColor.swift */; };
-		03C7273E2698CAEF00333F2F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7273D2698CAEF00333F2F /* UIImage.swift */; };
-		03C727432698ED8D00333F2F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 03C727422698ED8D00333F2F /* SnapKit */; };
-		03C727452698F06A00333F2F /* RETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C727442698F06A00333F2F /* RETextField.swift */; };
-		03CE185426A6430D00868F66 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE185326A6430D00868F66 /* UITableView.swift */; };
-		03CE185726A645F300868F66 /* RESearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE185626A645F300868F66 /* RESearchBar.swift */; };
+		03DEA60C26D86A0C00AB3F46 /* Package+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA60A26D86A0C00AB3F46 /* Package+CoreDataProperties.swift */; };
+		03DEA60D26D86A0C00AB3F46 /* Package+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA60B26D86A0C00AB3F46 /* Package+CoreDataClass.swift */; };
+		03DEA61426D9683700AB3F46 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DEA61326D9683700AB3F46 /* WidgetKit.framework */; };
+		03DEA61626D9683700AB3F46 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DEA61526D9683700AB3F46 /* SwiftUI.framework */; };
+		03DEA61926D9683700AB3F46 /* REWidgetKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA61826D9683700AB3F46 /* REWidgetKit.swift */; };
+		03DEA61C26D9683A00AB3F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA61B26D9683A00AB3F46 /* Assets.xcassets */; };
+		03DEA61E26D9683A00AB3F46 /* REWidgetKit.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA61A26D9683700AB3F46 /* REWidgetKit.intentdefinition */; };
+		03DEA61F26D9683A00AB3F46 /* REWidgetKit.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA61A26D9683700AB3F46 /* REWidgetKit.intentdefinition */; };
+		03DEA62226D9683A00AB3F46 /* REWidgetKitExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03DEA61226D9683700AB3F46 /* REWidgetKitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03DEA63426D9829E00AB3F46 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA63326D9829E00AB3F46 /* Font.swift */; };
+		03DEA64626D986AE00AB3F46 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63726D9869900AB3F46 /* Lexend-Regular.ttf */; };
+		03DEA64726D986AE00AB3F46 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63B26D9869900AB3F46 /* Inter-Thin.ttf */; };
+		03DEA64826D986AE00AB3F46 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63826D9869900AB3F46 /* Inter-Light.ttf */; };
+		03DEA64926D986AE00AB3F46 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64226D9869900AB3F46 /* Inter-Black.ttf */; };
+		03DEA64A26D986AE00AB3F46 /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63926D9869900AB3F46 /* Lexend-SemiBold.ttf */; };
+		03DEA64B26D986AE00AB3F46 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63626D9869900AB3F46 /* Inter-Medium.ttf */; };
+		03DEA64C26D986AE00AB3F46 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63C26D9869900AB3F46 /* Inter-Bold.ttf */; };
+		03DEA64D26D986AE00AB3F46 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63E26D9869900AB3F46 /* Inter-ExtraBold.ttf */; };
+		03DEA64E26D986AE00AB3F46 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63F26D9869900AB3F46 /* Inter-ExtraLight.ttf */; };
+		03DEA64F26D986AE00AB3F46 /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64126D9869900AB3F46 /* Lexend-Light.ttf */; };
+		03DEA65026D986AE00AB3F46 /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64326D9869900AB3F46 /* Lexend-Medium.ttf */; };
+		03DEA65126D986AE00AB3F46 /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63A26D9869900AB3F46 /* Lexend-ExtraBold.ttf */; };
+		03DEA65226D986AE00AB3F46 /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64026D9869900AB3F46 /* Lexend-Thin.ttf */; };
+		03DEA65326D986AE00AB3F46 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64426D9869900AB3F46 /* Inter-SemiBold.ttf */; };
+		03DEA65426D986AE00AB3F46 /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64526D9869900AB3F46 /* Lexend-Bold.ttf */; };
+		03DEA65526D986AE00AB3F46 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63D26D9869900AB3F46 /* Inter-Regular.ttf */; };
+		03DEA65626D986AF00AB3F46 /* Lexend-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63726D9869900AB3F46 /* Lexend-Regular.ttf */; };
+		03DEA65726D986AF00AB3F46 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63B26D9869900AB3F46 /* Inter-Thin.ttf */; };
+		03DEA65826D986AF00AB3F46 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63826D9869900AB3F46 /* Inter-Light.ttf */; };
+		03DEA65926D986AF00AB3F46 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64226D9869900AB3F46 /* Inter-Black.ttf */; };
+		03DEA65A26D986AF00AB3F46 /* Lexend-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63926D9869900AB3F46 /* Lexend-SemiBold.ttf */; };
+		03DEA65B26D986AF00AB3F46 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63626D9869900AB3F46 /* Inter-Medium.ttf */; };
+		03DEA65C26D986AF00AB3F46 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63C26D9869900AB3F46 /* Inter-Bold.ttf */; };
+		03DEA65D26D986AF00AB3F46 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63E26D9869900AB3F46 /* Inter-ExtraBold.ttf */; };
+		03DEA65E26D986AF00AB3F46 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63F26D9869900AB3F46 /* Inter-ExtraLight.ttf */; };
+		03DEA65F26D986AF00AB3F46 /* Lexend-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64126D9869900AB3F46 /* Lexend-Light.ttf */; };
+		03DEA66026D986AF00AB3F46 /* Lexend-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64326D9869900AB3F46 /* Lexend-Medium.ttf */; };
+		03DEA66126D986AF00AB3F46 /* Lexend-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63A26D9869900AB3F46 /* Lexend-ExtraBold.ttf */; };
+		03DEA66226D986AF00AB3F46 /* Lexend-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64026D9869900AB3F46 /* Lexend-Thin.ttf */; };
+		03DEA66326D986AF00AB3F46 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64426D9869900AB3F46 /* Inter-SemiBold.ttf */; };
+		03DEA66426D986AF00AB3F46 /* Lexend-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA64526D9869900AB3F46 /* Lexend-Bold.ttf */; };
+		03DEA66526D986AF00AB3F46 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03DEA63D26D9869900AB3F46 /* Inter-Regular.ttf */; };
+		03DEA66726D9880900AB3F46 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEA63326D9829E00AB3F46 /* Font.swift */; };
+		03DEA66B26DC392A00AB3F46 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = 03DEA66A26DC392A00AB3F46 /* Services */; };
 		03E5B9A926D03464005AD0CF /* CoreDataEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9A826D03464005AD0CF /* CoreDataEnum.swift */; };
-		03E5B9AC26D03A4A005AD0CF /* Package+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */; };
-		03E5B9AD26D03A4A005AD0CF /* Package+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */; };
 		03E5B9AF26D03D4A005AD0CF /* AddPackageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B9AE26D03D4A005AD0CF /* AddPackageViewModel.swift */; };
 		6002B1249AFF0811F633BAA8 /* Pods_Rastreia_entregas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */; };
 /* End PBXBuildFile section */
@@ -81,27 +87,39 @@
 			remoteGlobalIDString = 03C726B12693DAB000333F2F;
 			remoteInfo = "Rastreia entregas";
 		};
+		03DEA62026D9683A00AB3F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C726AA2693DAB000333F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DEA61126D9683700AB3F46;
+			remoteInfo = REWidgetKitExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03DEA62626D9683A00AB3F46 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03DEA62226D9683A00AB3F46 /* REWidgetKitExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		031BCE6826CF22B5002308D0 /* GenericRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRepository.swift; sourceTree = "<group>"; };
 		031BCE7026CF2A9D002308D0 /* PackageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRepository.swift; sourceTree = "<group>"; };
 		031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + CoreDataStack.swift"; sourceTree = "<group>"; };
-		0349282026C3FF9000E7F3BB /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		0346E44F26DE745100F43504 /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Package.resolved; path = "Rastreia entregas/REUIKit/Package.resolved"; sourceTree = "<group>"; };
+		0346E45026DE746D00F43504 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "Rastreia entregas/REUIKit/Package.swift"; sourceTree = "<group>"; };
 		0349282626C5F38E00E7F3BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		03790C6726B2F63500927523 /* RESegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESegmentControl.swift; sourceTree = "<group>"; };
-		03790C6926B2F7F400927523 /* RESegmentControlItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESegmentControlItem.swift; sourceTree = "<group>"; };
-		03790C6E26B4242C00927523 /* RETableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETableViewHeader.swift; sourceTree = "<group>"; };
-		03790C7426B9E73C00927523 /* EnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
-		039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTableViewCell.swift; sourceTree = "<group>"; };
 		039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageViewController.swift; sourceTree = "<group>"; };
 		039B59B126CB3D5000F71933 /* AddPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageView.swift; sourceTree = "<group>"; };
 		039B59B426CBDE0700F71933 /* InteractablePackageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractablePackageCard.swift; sourceTree = "<group>"; };
-		039B59B626CC3A5000F71933 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		03C34E60269CAB5400211CE8 /* RELargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RELargeButton.swift; sourceTree = "<group>"; };
-		03C34E67269E623900211CE8 /* Styleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleable.swift; sourceTree = "<group>"; };
-		03C34E6C269F2BE200211CE8 /* REButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REButton.swift; sourceTree = "<group>"; };
-		03C34E72269F77B400211CE8 /* PackageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCard.swift; sourceTree = "<group>"; };
 		03C726B22693DAB000333F2F /* Rastreia entregas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rastreia entregas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C726B52693DAB000333F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C726B72693DAB000333F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,37 +132,38 @@
 		03C726D12693DAB300333F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rastreia entregasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C726DC2693DAB300333F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03C726EA2693DB7400333F2F /* PackageTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTracking.swift; sourceTree = "<group>"; };
 		03C726F82694848D00333F2F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		03C726FA2694891900333F2F /* PackageStoredInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageStoredInfos.swift; sourceTree = "<group>"; };
-		03C726FD26949BE800333F2F /* PackageProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageProviding.swift; sourceTree = "<group>"; };
-		03C7270026949DC800333F2F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		03C727142695FFE400333F2F /* Rastreia entregas.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Rastreia entregas.entitlements"; sourceTree = "<group>"; };
-		03C72715269899FC00333F2F /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
-		03C7271B26989C8700333F2F /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
-		03C7271C26989C8700333F2F /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
-		03C7271D26989C8700333F2F /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
-		03C7271E26989C8700333F2F /* Lexend-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Bold.ttf"; sourceTree = "<group>"; };
-		03C7271F26989C8700333F2F /* Lexend-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Medium.ttf"; sourceTree = "<group>"; };
-		03C7272026989C8700333F2F /* Lexend-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Thin.ttf"; sourceTree = "<group>"; };
-		03C7272126989C8700333F2F /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
-		03C7272226989C8700333F2F /* Lexend-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-ExtraBold.ttf"; sourceTree = "<group>"; };
-		03C7272326989C8700333F2F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
-		03C7272426989C8700333F2F /* Lexend-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Regular.ttf"; sourceTree = "<group>"; };
-		03C7272526989C8700333F2F /* Lexend-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-SemiBold.ttf"; sourceTree = "<group>"; };
-		03C7272626989C8700333F2F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		03C7272726989C8700333F2F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		03C7272826989C8700333F2F /* Lexend-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Light.ttf"; sourceTree = "<group>"; };
-		03C7272926989C8700333F2F /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
-		03C7272A26989C8700333F2F /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
-		03C7273B2698C50200333F2F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		03C7273D2698CAEF00333F2F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		03C727442698F06A00333F2F /* RETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETextField.swift; sourceTree = "<group>"; };
-		03CE185326A6430D00868F66 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		03CE185626A645F300868F66 /* RESearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESearchBar.swift; sourceTree = "<group>"; };
+		03DEA60A26D86A0C00AB3F46 /* Package+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03DEA60B26D86A0C00AB3F46 /* Package+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03DEA61226D9683700AB3F46 /* REWidgetKitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = REWidgetKitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DEA61326D9683700AB3F46 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		03DEA61526D9683700AB3F46 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		03DEA61826D9683700AB3F46 /* REWidgetKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REWidgetKit.swift; sourceTree = "<group>"; };
+		03DEA61A26D9683700AB3F46 /* REWidgetKit.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = REWidgetKit.intentdefinition; sourceTree = "<group>"; };
+		03DEA61B26D9683A00AB3F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DEA61D26D9683A00AB3F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DEA62B26D9717C00AB3F46 /* REUIKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = REUIKit; sourceTree = "<group>"; };
+		03DEA63326D9829E00AB3F46 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		03DEA63626D9869900AB3F46 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		03DEA63726D9869900AB3F46 /* Lexend-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Regular.ttf"; sourceTree = "<group>"; };
+		03DEA63826D9869900AB3F46 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		03DEA63926D9869900AB3F46 /* Lexend-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-SemiBold.ttf"; sourceTree = "<group>"; };
+		03DEA63A26D9869900AB3F46 /* Lexend-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-ExtraBold.ttf"; sourceTree = "<group>"; };
+		03DEA63B26D9869900AB3F46 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		03DEA63C26D9869900AB3F46 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		03DEA63D26D9869900AB3F46 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		03DEA63E26D9869900AB3F46 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		03DEA63F26D9869900AB3F46 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		03DEA64026D9869900AB3F46 /* Lexend-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Thin.ttf"; sourceTree = "<group>"; };
+		03DEA64126D9869900AB3F46 /* Lexend-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Light.ttf"; sourceTree = "<group>"; };
+		03DEA64226D9869900AB3F46 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		03DEA64326D9869900AB3F46 /* Lexend-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Medium.ttf"; sourceTree = "<group>"; };
+		03DEA64426D9869900AB3F46 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		03DEA64526D9869900AB3F46 /* Lexend-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-Bold.ttf"; sourceTree = "<group>"; };
+		03DEA66626D987A200AB3F46 /* Lexend-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lexend-SemiBold.ttf"; sourceTree = "<group>"; };
+		03DEA66926DC38F800AB3F46 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 		03E5B9A826D03464005AD0CF /* CoreDataEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataEnum.swift; sourceTree = "<group>"; };
-		03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataClass.swift"; sourceTree = "<group>"; };
-		03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Package+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		03E5B9AE26D03D4A005AD0CF /* AddPackageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageViewModel.swift; sourceTree = "<group>"; };
 		623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rastreia_entregas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rastreia entregas.release.xcconfig"; path = "Target Support Files/Pods-Rastreia entregas/Pods-Rastreia entregas.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,8 +175,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0346E45226DE74AA00F43504 /* REUIKit in Frameworks */,
+				03DEA66B26DC392A00AB3F46 /* Services in Frameworks */,
 				6002B1249AFF0811F633BAA8 /* Pods_Rastreia_entregas.framework in Frameworks */,
-				03C727432698ED8D00333F2F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +192,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEA60F26D9683700AB3F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0346E45426DE74B000F43504 /* REUIKit in Frameworks */,
+				03DEA61626D9683700AB3F46 /* SwiftUI.framework in Frameworks */,
+				03DEA61426D9683700AB3F46 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,81 +247,10 @@
 		0370D6B526CD3AD6004FD97F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				03E5B9AA26D03A4A005AD0CF /* Package+CoreDataClass.swift */,
-				03E5B9AB26D03A4A005AD0CF /* Package+CoreDataProperties.swift */,
+				03DEA60B26D86A0C00AB3F46 /* Package+CoreDataClass.swift */,
+				03DEA60A26D86A0C00AB3F46 /* Package+CoreDataProperties.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		03790C6626B2EF8B00927523 /* SegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				03790C6726B2F63500927523 /* RESegmentControl.swift */,
-				03790C6926B2F7F400927523 /* RESegmentControlItem.swift */,
-			);
-			path = SegmentControl;
-			sourceTree = "<group>";
-		};
-		03790C6D26B4241300927523 /* TableViewHeader */ = {
-			isa = PBXGroup;
-			children = (
-				03790C6E26B4242C00927523 /* RETableViewHeader.swift */,
-			);
-			path = TableViewHeader;
-			sourceTree = "<group>";
-		};
-		03790C7326B9E70F00927523 /* Variables */ = {
-			isa = PBXGroup;
-			children = (
-				03790C7426B9E73C00927523 /* EnvironmentVariables.swift */,
-			);
-			path = Variables;
-			sourceTree = "<group>";
-		};
-		039B59AC26CB0B6200F71933 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				039B59AD26CB0B7800F71933 /* PackageTableViewCell.swift */,
-			);
-			path = TableViewCell;
-			sourceTree = "<group>";
-		};
-		03C34E69269F2AA100211CE8 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				03C72715269899FC00333F2F /* UIFont.swift */,
-				03C7273B2698C50200333F2F /* UIColor.swift */,
-				03C7273D2698CAEF00333F2F /* UIImage.swift */,
-				03CE185326A6430D00868F66 /* UITableView.swift */,
-				0349282026C3FF9000E7F3BB /* UILabel.swift */,
-				039B59B626CC3A5000F71933 /* UIView.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		03C34E6A269F2AD000211CE8 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				03C34E60269CAB5400211CE8 /* RELargeButton.swift */,
-				03C34E6C269F2BE200211CE8 /* REButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		03C34E6B269F2AF700211CE8 /* TextField */ = {
-			isa = PBXGroup;
-			children = (
-				03C727442698F06A00333F2F /* RETextField.swift */,
-			);
-			path = TextField;
-			sourceTree = "<group>";
-		};
-		03C34E71269F778500211CE8 /* Cards */ = {
-			isa = PBXGroup;
-			children = (
-				03C34E72269F77B400211CE8 /* PackageCard.swift */,
-			);
-			path = Cards;
 			sourceTree = "<group>";
 		};
 		03C726A92693DAB000333F2F = {
@@ -300,6 +259,7 @@
 				03C726B42693DAB000333F2F /* Rastreia entregas */,
 				03C726CE2693DAB300333F2F /* Rastreia entregasTests */,
 				03C726D92693DAB300333F2F /* Rastreia entregasUITests */,
+				03DEA61726D9683700AB3F46 /* REWidgetKit */,
 				03C726B32693DAB000333F2F /* Products */,
 				E9049AAE70C8B8FBDD38572D /* Pods */,
 				A034E61ECD46D633B16105EE /* Frameworks */,
@@ -312,6 +272,7 @@
 				03C726B22693DAB000333F2F /* Rastreia entregas.app */,
 				03C726CB2693DAB300333F2F /* Rastreia entregasTests.xctest */,
 				03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */,
+				03DEA61226D9683700AB3F46 /* REWidgetKitExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,10 +280,9 @@
 		03C726B42693DAB000333F2F /* Rastreia entregas */ = {
 			isa = PBXGroup;
 			children = (
+				03DEA66926DC38F800AB3F46 /* Services */,
+				03DEA62B26D9717C00AB3F46 /* REUIKit */,
 				03C7271926989BC500333F2F /* Assets */,
-				03C726F42694844800333F2F /* REUIKit */,
-				03C726E92693DAD400333F2F /* Model */,
-				03C726E82693DAC100333F2F /* Services */,
 				03C726EC2694838700333F2F /* Scenes */,
 				0370D6B326CD38B0004FD97F /* RECoreDataKit */,
 				03C726B52693DAB000333F2F /* AppDelegate.swift */,
@@ -349,25 +309,6 @@
 				03C726DC2693DAB300333F2F /* Info.plist */,
 			);
 			path = "Rastreia entregasUITests";
-			sourceTree = "<group>";
-		};
-		03C726E82693DAC100333F2F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				03790C7326B9E70F00927523 /* Variables */,
-				03C726FF26949DB700333F2F /* Networking */,
-				03C726FC26949BB200333F2F /* Providers */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		03C726E92693DAD400333F2F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				03C726EA2693DB7400333F2F /* PackageTracking.swift */,
-				03C726FA2694891900333F2F /* PackageStoredInfos.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		03C726EC2694838700333F2F /* Scenes */ = {
@@ -432,90 +373,67 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		03C726F32694841000333F2F /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				03C34E67269E623900211CE8 /* Styleable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		03C726F42694844800333F2F /* REUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				039B59AC26CB0B6200F71933 /* TableViewCell */,
-				03790C6D26B4241300927523 /* TableViewHeader */,
-				03790C6626B2EF8B00927523 /* SegmentControl */,
-				03CE185526A645B900868F66 /* SearchBar */,
-				03C34E71269F778500211CE8 /* Cards */,
-				03C34E6B269F2AF700211CE8 /* TextField */,
-				03C34E6A269F2AD000211CE8 /* Buttons */,
-				03C726F32694841000333F2F /* Protocols */,
-				03C34E69269F2AA100211CE8 /* Extensions */,
-			);
-			path = REUIKit;
-			sourceTree = "<group>";
-		};
-		03C726FC26949BB200333F2F /* Providers */ = {
-			isa = PBXGroup;
-			children = (
-				03C726FD26949BE800333F2F /* PackageProviding.swift */,
-			);
-			path = Providers;
-			sourceTree = "<group>";
-		};
-		03C726FF26949DB700333F2F /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				03C7270026949DC800333F2F /* Networking.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		03C7271926989BC500333F2F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				03C7271A26989BD100333F2F /* Fonts */,
+				03DEA63526D9869900AB3F46 /* Resources */,
 				03C726C12693DAB200333F2F /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		03C7271A26989BD100333F2F /* Fonts */ = {
+		03DEA61726D9683700AB3F46 /* REWidgetKit */ = {
 			isa = PBXGroup;
 			children = (
-				03C7272A26989C8700333F2F /* Inter-Black.ttf */,
-				03C7272126989C8700333F2F /* Inter-Bold.ttf */,
-				03C7272326989C8700333F2F /* Inter-ExtraBold.ttf */,
-				03C7271C26989C8700333F2F /* Inter-ExtraLight.ttf */,
-				03C7272926989C8700333F2F /* Inter-Light.ttf */,
-				03C7271B26989C8700333F2F /* Inter-Medium.ttf */,
-				03C7272726989C8700333F2F /* Inter-Regular.ttf */,
-				03C7272626989C8700333F2F /* Inter-SemiBold.ttf */,
-				03C7271D26989C8700333F2F /* Inter-Thin.ttf */,
-				03C7271E26989C8700333F2F /* Lexend-Bold.ttf */,
-				03C7272226989C8700333F2F /* Lexend-ExtraBold.ttf */,
-				03C7272826989C8700333F2F /* Lexend-Light.ttf */,
-				03C7271F26989C8700333F2F /* Lexend-Medium.ttf */,
-				03C7272426989C8700333F2F /* Lexend-Regular.ttf */,
-				03C7272526989C8700333F2F /* Lexend-SemiBold.ttf */,
-				03C7272026989C8700333F2F /* Lexend-Thin.ttf */,
+				03DEA63226D9829100AB3F46 /* Extension */,
+				03DEA61826D9683700AB3F46 /* REWidgetKit.swift */,
+				03DEA61A26D9683700AB3F46 /* REWidgetKit.intentdefinition */,
+				03DEA61B26D9683A00AB3F46 /* Assets.xcassets */,
+				03DEA61D26D9683A00AB3F46 /* Info.plist */,
 			);
-			path = Fonts;
+			path = REWidgetKit;
 			sourceTree = "<group>";
 		};
-		03CE185526A645B900868F66 /* SearchBar */ = {
+		03DEA63226D9829100AB3F46 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				03CE185626A645F300868F66 /* RESearchBar.swift */,
+				03DEA63326D9829E00AB3F46 /* Font.swift */,
+				03DEA66626D987A200AB3F46 /* Lexend-SemiBold.ttf */,
 			);
-			path = SearchBar;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		03DEA63526D9869900AB3F46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03DEA63626D9869900AB3F46 /* Inter-Medium.ttf */,
+				03DEA63726D9869900AB3F46 /* Lexend-Regular.ttf */,
+				03DEA63826D9869900AB3F46 /* Inter-Light.ttf */,
+				03DEA63926D9869900AB3F46 /* Lexend-SemiBold.ttf */,
+				03DEA63A26D9869900AB3F46 /* Lexend-ExtraBold.ttf */,
+				03DEA63B26D9869900AB3F46 /* Inter-Thin.ttf */,
+				03DEA63C26D9869900AB3F46 /* Inter-Bold.ttf */,
+				03DEA63D26D9869900AB3F46 /* Inter-Regular.ttf */,
+				03DEA63E26D9869900AB3F46 /* Inter-ExtraBold.ttf */,
+				03DEA63F26D9869900AB3F46 /* Inter-ExtraLight.ttf */,
+				03DEA64026D9869900AB3F46 /* Lexend-Thin.ttf */,
+				03DEA64126D9869900AB3F46 /* Lexend-Light.ttf */,
+				03DEA64226D9869900AB3F46 /* Inter-Black.ttf */,
+				03DEA64326D9869900AB3F46 /* Lexend-Medium.ttf */,
+				03DEA64426D9869900AB3F46 /* Inter-SemiBold.ttf */,
+				03DEA64526D9869900AB3F46 /* Lexend-Bold.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A034E61ECD46D633B16105EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0346E45026DE746D00F43504 /* Package.swift */,
+				0346E44F26DE745100F43504 /* Package.resolved */,
 				623D9302256B081E67976127 /* Pods_Rastreia_entregas.framework */,
+				03DEA61326D9683700AB3F46 /* WidgetKit.framework */,
+				03DEA61526D9683700AB3F46 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -542,14 +460,17 @@
 				03C726B02693DAB000333F2F /* Resources */,
 				600C3B22AE4A35464F72D88D /* [CP] Embed Pods Frameworks */,
 				03C7271826989B1E00333F2F /* SwiftLint */,
+				03DEA62626D9683A00AB3F46 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				03DEA62126D9683A00AB3F46 /* PBXTargetDependency */,
 			);
 			name = "Rastreia entregas";
 			packageProductDependencies = (
-				03C727422698ED8D00333F2F /* SnapKit */,
+				03DEA66A26DC392A00AB3F46 /* Services */,
+				0346E45126DE74AA00F43504 /* REUIKit */,
 			);
 			productName = "Rastreia entregas";
 			productReference = 03C726B22693DAB000333F2F /* Rastreia entregas.app */;
@@ -591,6 +512,26 @@
 			productReference = 03C726D62693DAB300333F2F /* Rastreia entregasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		03DEA61126D9683700AB3F46 /* REWidgetKitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DEA62326D9683A00AB3F46 /* Build configuration list for PBXNativeTarget "REWidgetKitExtension" */;
+			buildPhases = (
+				03DEA60E26D9683700AB3F46 /* Sources */,
+				03DEA60F26D9683700AB3F46 /* Frameworks */,
+				03DEA61026D9683700AB3F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REWidgetKitExtension;
+			packageProductDependencies = (
+				0346E45326DE74B000F43504 /* REUIKit */,
+			);
+			productName = REWidgetKitExtension;
+			productReference = 03DEA61226D9683700AB3F46 /* REWidgetKitExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -611,6 +552,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 03C726B12693DAB000333F2F;
 					};
+					03DEA61126D9683700AB3F46 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = 03C726AD2693DAB000333F2F /* Build configuration list for PBXProject "Rastreia entregas" */;
@@ -623,7 +567,6 @@
 			);
 			mainGroup = 03C726A92693DAB000333F2F;
 			packageReferences = (
-				03C727412698ED8D00333F2F /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 03C726B32693DAB000333F2F /* Products */;
 			projectDirPath = "";
@@ -632,6 +575,7 @@
 				03C726B12693DAB000333F2F /* Rastreia entregas */,
 				03C726CA2693DAB300333F2F /* Rastreia entregasTests */,
 				03C726D52693DAB300333F2F /* Rastreia entregasUITests */,
+				03DEA61126D9683700AB3F46 /* REWidgetKitExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -641,24 +585,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C7272B26989C8700333F2F /* Inter-Medium.ttf in Resources */,
-				03C7272C26989C8700333F2F /* Inter-ExtraLight.ttf in Resources */,
-				03C7272D26989C8700333F2F /* Inter-Thin.ttf in Resources */,
-				03C7273626989C8700333F2F /* Inter-SemiBold.ttf in Resources */,
-				03C7272F26989C8700333F2F /* Lexend-Medium.ttf in Resources */,
-				03C7273426989C8700333F2F /* Lexend-Regular.ttf in Resources */,
+				03DEA65126D986AE00AB3F46 /* Lexend-ExtraBold.ttf in Resources */,
+				03DEA65226D986AE00AB3F46 /* Lexend-Thin.ttf in Resources */,
+				03DEA65026D986AE00AB3F46 /* Lexend-Medium.ttf in Resources */,
+				03DEA64A26D986AE00AB3F46 /* Lexend-SemiBold.ttf in Resources */,
+				03DEA64F26D986AE00AB3F46 /* Lexend-Light.ttf in Resources */,
+				03DEA64826D986AE00AB3F46 /* Inter-Light.ttf in Resources */,
+				03DEA64926D986AE00AB3F46 /* Inter-Black.ttf in Resources */,
+				03DEA64C26D986AE00AB3F46 /* Inter-Bold.ttf in Resources */,
+				03DEA64726D986AE00AB3F46 /* Inter-Thin.ttf in Resources */,
+				03DEA65426D986AE00AB3F46 /* Lexend-Bold.ttf in Resources */,
+				03DEA65526D986AE00AB3F46 /* Inter-Regular.ttf in Resources */,
+				03DEA64D26D986AE00AB3F46 /* Inter-ExtraBold.ttf in Resources */,
+				03DEA64B26D986AE00AB3F46 /* Inter-Medium.ttf in Resources */,
+				03DEA64626D986AE00AB3F46 /* Lexend-Regular.ttf in Resources */,
+				03DEA65326D986AE00AB3F46 /* Inter-SemiBold.ttf in Resources */,
+				03DEA64E26D986AE00AB3F46 /* Inter-ExtraLight.ttf in Resources */,
 				03C726C52693DAB200333F2F /* LaunchScreen.storyboard in Resources */,
-				03C7273A26989C8700333F2F /* Inter-Black.ttf in Resources */,
-				03C7273526989C8700333F2F /* Lexend-SemiBold.ttf in Resources */,
-				03C7273126989C8700333F2F /* Inter-Bold.ttf in Resources */,
-				03C7273926989C8700333F2F /* Inter-Light.ttf in Resources */,
-				03C7272E26989C8700333F2F /* Lexend-Bold.ttf in Resources */,
-				03C7273026989C8700333F2F /* Lexend-Thin.ttf in Resources */,
-				03C7273226989C8700333F2F /* Lexend-ExtraBold.ttf in Resources */,
 				03C726C22693DAB200333F2F /* Assets.xcassets in Resources */,
-				03C7273826989C8700333F2F /* Lexend-Light.ttf in Resources */,
-				03C7273726989C8700333F2F /* Inter-Regular.ttf in Resources */,
-				03C7273326989C8700333F2F /* Inter-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +617,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEA61026D9683700AB3F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEA61C26D9683A00AB3F46 /* Assets.xcassets in Resources */,
+				03DEA65E26D986AF00AB3F46 /* Inter-ExtraLight.ttf in Resources */,
+				03DEA65A26D986AF00AB3F46 /* Lexend-SemiBold.ttf in Resources */,
+				03DEA66326D986AF00AB3F46 /* Inter-SemiBold.ttf in Resources */,
+				03DEA66026D986AF00AB3F46 /* Lexend-Medium.ttf in Resources */,
+				03DEA66126D986AF00AB3F46 /* Lexend-ExtraBold.ttf in Resources */,
+				03DEA66226D986AF00AB3F46 /* Lexend-Thin.ttf in Resources */,
+				03DEA65D26D986AF00AB3F46 /* Inter-ExtraBold.ttf in Resources */,
+				03DEA65C26D986AF00AB3F46 /* Inter-Bold.ttf in Resources */,
+				03DEA66426D986AF00AB3F46 /* Lexend-Bold.ttf in Resources */,
+				03DEA65626D986AF00AB3F46 /* Lexend-Regular.ttf in Resources */,
+				03DEA65926D986AF00AB3F46 /* Inter-Black.ttf in Resources */,
+				03DEA65B26D986AF00AB3F46 /* Inter-Medium.ttf in Resources */,
+				03DEA65F26D986AF00AB3F46 /* Lexend-Light.ttf in Resources */,
+				03DEA65826D986AF00AB3F46 /* Inter-Light.ttf in Resources */,
+				03DEA66526D986AF00AB3F46 /* Inter-Regular.ttf in Resources */,
+				03DEA65726D986AF00AB3F46 /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,43 +711,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C34E73269F77B400211CE8 /* PackageCard.swift in Sources */,
-				03790C7526B9E73C00927523 /* EnvironmentVariables.swift in Sources */,
+				03DEA61F26D9683A00AB3F46 /* REWidgetKit.intentdefinition in Sources */,
 				03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */,
 				0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */,
 				03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */,
 				03E5B9A926D03464005AD0CF /* CoreDataEnum.swift in Sources */,
 				031BCE7126CF2A9D002308D0 /* PackageRepository.swift in Sources */,
-				03C34E61269CAB5400211CE8 /* RELargeButton.swift in Sources */,
 				039B59B526CBDE0700F71933 /* InteractablePackageCard.swift in Sources */,
+				03DEA63426D9829E00AB3F46 /* Font.swift in Sources */,
 				039B59B026CB3D0D00F71933 /* AddPackageViewController.swift in Sources */,
-				03C727452698F06A00333F2F /* RETextField.swift in Sources */,
-				03790C6F26B4242C00927523 /* RETableViewHeader.swift in Sources */,
-				03E5B9AD26D03A4A005AD0CF /* Package+CoreDataProperties.swift in Sources */,
+				03DEA60C26D86A0C00AB3F46 /* Package+CoreDataProperties.swift in Sources */,
 				03E5B9AF26D03D4A005AD0CF /* AddPackageViewModel.swift in Sources */,
-				039B59B726CC3A5000F71933 /* UIView.swift in Sources */,
-				03CE185726A645F300868F66 /* RESearchBar.swift in Sources */,
-				03C72716269899FC00333F2F /* UIFont.swift in Sources */,
-				03C34E68269E623900211CE8 /* Styleable.swift in Sources */,
-				03E5B9AC26D03A4A005AD0CF /* Package+CoreDataClass.swift in Sources */,
-				03790C6826B2F63500927523 /* RESegmentControl.swift in Sources */,
 				03C726C02693DAB000333F2F /* Rastreia_entregas.xcdatamodeld in Sources */,
-				03C7270126949DC800333F2F /* Networking.swift in Sources */,
-				039B59AE26CB0B7800F71933 /* PackageTableViewCell.swift in Sources */,
 				03C726B62693DAB000333F2F /* AppDelegate.swift in Sources */,
-				03CE185426A6430D00868F66 /* UITableView.swift in Sources */,
-				0349282126C3FF9000E7F3BB /* UILabel.swift in Sources */,
 				039B59B226CB3D5000F71933 /* AddPackageView.swift in Sources */,
 				031BCE7726CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift in Sources */,
 				03C726B82693DAB000333F2F /* SceneDelegate.swift in Sources */,
-				03790C6A26B2F7F400927523 /* RESegmentControlItem.swift in Sources */,
-				03C7273C2698C50200333F2F /* UIColor.swift in Sources */,
-				03C726FB2694891900333F2F /* PackageStoredInfos.swift in Sources */,
+				03DEA60D26D86A0C00AB3F46 /* Package+CoreDataClass.swift in Sources */,
 				031BCE6926CF22B5002308D0 /* GenericRepository.swift in Sources */,
-				03C34E6D269F2BE200211CE8 /* REButton.swift in Sources */,
-				03C7273E2698CAEF00333F2F /* UIImage.swift in Sources */,
-				03C726EB2693DB7400333F2F /* PackageTracking.swift in Sources */,
-				03C726FE26949BE800333F2F /* PackageProviding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,6 +746,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03DEA60E26D9683700AB3F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEA61E26D9683A00AB3F46 /* REWidgetKit.intentdefinition in Sources */,
+				03DEA61926D9683700AB3F46 /* REWidgetKit.swift in Sources */,
+				03DEA66726D9880900AB3F46 /* Font.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -809,6 +768,11 @@
 			isa = PBXTargetDependency;
 			target = 03C726B12693DAB000333F2F /* Rastreia entregas */;
 			targetProxy = 03C726D72693DAB300333F2F /* PBXContainerItemProxy */;
+		};
+		03DEA62126D9683A00AB3F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DEA61126D9683700AB3F46 /* REWidgetKitExtension */;
+			targetProxy = 03DEA62026D9683A00AB3F46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -875,7 +839,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -930,7 +894,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -944,13 +908,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0A2FAFDC4BC57B63A04CE8B /* Pods-Rastreia entregas.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Rastreia entregas/Rastreia entregas.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62NRBAKMQ3;
 				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -968,13 +933,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACD66DEF7A20A02F3876E482 /* Pods-Rastreia entregas.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Rastreia entregas/Rastreia entregas.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62NRBAKMQ3;
 				INFOPLIST_FILE = "Rastreia entregas/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1072,6 +1038,54 @@
 			};
 			name = Release;
 		};
+		03DEA62426D9683A00AB3F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = REWidgetKitExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = REWidgetKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregas.REWidgetKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03DEA62526D9683A00AB3F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = REWidgetKitExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62NRBAKMQ3;
+				INFOPLIST_FILE = REWidgetKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-academy.Rastreia-entregas.REWidgetKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1111,24 +1125,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		03DEA62326D9683A00AB3F46 /* Build configuration list for PBXNativeTarget "REWidgetKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DEA62426D9683A00AB3F46 /* Debug */,
+				03DEA62526D9683A00AB3F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		03C727412698ED8D00333F2F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		03C727422698ED8D00333F2F /* SnapKit */ = {
+		0346E45126DE74AA00F43504 /* REUIKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03C727412698ED8D00333F2F /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
+			productName = REUIKit;
+		};
+		0346E45326DE74B000F43504 /* REUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = REUIKit;
+		};
+		03DEA66A26DC392A00AB3F46 /* Services */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Services;
 		};
 /* End XCSwiftPackageProductDependency section */
 

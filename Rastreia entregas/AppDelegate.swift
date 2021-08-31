@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import WidgetKit
 
 // swiftlint:disable all
 
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
+    }
+
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        if #available(iOS 14.0, *) {
+            WidgetCenter.shared.reloadTimelines(ofKind: "com.mygame.character-detail")
+        }
     }
 
     // MARK: UISceneSession Lifecycle

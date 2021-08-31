@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import REUIKit
+import Services
 
 protocol HomeViewDelegate: AnyObject {
     func pushViewController()
@@ -15,6 +17,15 @@ class HomeView: UIView {
 
     // MARK: Properties
     weak var delegate: HomeViewDelegate?
+
+    private var packages: [PackageTracking] = []
+
+    lazy var getPackages: (([PackageTracking]) -> Void) = { [weak self] packagesInfos in
+
+        guard let self = self else { return }
+        self.packages = packagesInfos
+        self.tableView.reloadData()
+    }
 
     // MARK: UI Elements
     private lazy var largeTitle = UILabel(fontStyle: .heading4, textColor: .REGray1)
@@ -148,7 +159,7 @@ class HomeView: UIView {
 
 extension HomeView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return packages.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -157,9 +168,9 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
 
-        let packageCard = PackageCard(icon: .delivered)
-        packageCard.title = "Teste"
-        packageCard.subtitle = "Godofredo Maciel"
+        let packageCard = PackageCard(icon: .onRoute)
+        packageCard.title = "iPad"
+        packageCard.subtitle = packages[indexPath.row].eventos.first?.local
 
         cell.configurePackageCard(packageCard: packageCard)
         return cell
