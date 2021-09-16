@@ -12,6 +12,8 @@
 		031BCE7726CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */; };
 		0346E45226DE74AA00F43504 /* REUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0346E45126DE74AA00F43504 /* REUIKit */; };
 		0346E45426DE74B000F43504 /* REUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0346E45326DE74B000F43504 /* REUIKit */; };
+		0346E45A26E642F100F43504 /* DetailsPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E45926E642F100F43504 /* DetailsPackageViewController.swift */; };
+		0346E45C26E6439C00F43504 /* DetailsPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346E45B26E6439C00F43504 /* DetailsPackageView.swift */; };
 		0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349282626C5F38E00E7F3BB /* HomeView.swift */; };
 		039B59B026CB3D0D00F71933 /* AddPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */; };
 		039B59B226CB3D5000F71933 /* AddPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B59B126CB3D5000F71933 /* AddPackageView.swift */; };
@@ -116,6 +118,8 @@
 		031BCE7626CFEBF5002308D0 /* AppDelegate + CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + CoreDataStack.swift"; sourceTree = "<group>"; };
 		0346E44F26DE745100F43504 /* Package.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Package.resolved; path = "Rastreia entregas/REUIKit/Package.resolved"; sourceTree = "<group>"; };
 		0346E45026DE746D00F43504 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "Rastreia entregas/REUIKit/Package.swift"; sourceTree = "<group>"; };
+		0346E45926E642F100F43504 /* DetailsPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPackageViewController.swift; sourceTree = "<group>"; };
+		0346E45B26E6439C00F43504 /* DetailsPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPackageView.swift; sourceTree = "<group>"; };
 		0349282626C5F38E00E7F3BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		039B59AF26CB3D0D00F71933 /* AddPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageViewController.swift; sourceTree = "<group>"; };
 		039B59B126CB3D5000F71933 /* AddPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPackageView.swift; sourceTree = "<group>"; };
@@ -225,6 +229,31 @@
 			path = GenericRepository;
 			sourceTree = "<group>";
 		};
+		0346E45526E6429400F43504 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				0346E45726E642A700F43504 /* View */,
+				0346E45626E642A000F43504 /* ViewModel */,
+				0346E45926E642F100F43504 /* DetailsPackageViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		0346E45626E642A000F43504 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0346E45726E642A700F43504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0346E45B26E6439C00F43504 /* DetailsPackageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0370D6B326CD38B0004FD97F /* RECoreDataKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +343,7 @@
 		03C726EC2694838700333F2F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0346E45526E6429400F43504 /* Details */,
 				03C726EE269483B200333F2F /* Add */,
 				03C726ED2694839500333F2F /* Home */,
 			);
@@ -715,7 +745,9 @@
 				03C726BA2693DAB000333F2F /* HomeViewController.swift in Sources */,
 				0349282726C5F38E00E7F3BB /* HomeView.swift in Sources */,
 				03C726F92694848D00333F2F /* HomeViewModel.swift in Sources */,
+				0346E45C26E6439C00F43504 /* DetailsPackageView.swift in Sources */,
 				03E5B9A926D03464005AD0CF /* CoreDataEnum.swift in Sources */,
+				0346E45A26E642F100F43504 /* DetailsPackageViewController.swift in Sources */,
 				031BCE7126CF2A9D002308D0 /* PackageRepository.swift in Sources */,
 				039B59B526CBDE0700F71933 /* InteractablePackageCard.swift in Sources */,
 				03DEA63426D9829E00AB3F46 /* Font.swift in Sources */,

@@ -25,7 +25,7 @@ let package = Package(
             name: "REUIKit",
             dependencies: ["SnapKit", "Lottie"],
             resources: [
-                .process("REUIKit/Resources")
+                .process("Resources/PackageAnimation.json")
             ]),
         .testTarget(
             name: "REUIKitTests",

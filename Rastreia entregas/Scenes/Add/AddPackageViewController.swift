@@ -5,6 +5,7 @@
 //  Created by Lucas Oliveira on 16/08/21.
 //
 
+import REUIKit
 import UIKit
 import CoreData
 
@@ -30,9 +31,7 @@ class AddPackageViewController: UIViewController {
         }
 
         addPackageView.presentAlert = { [weak self] in
-            let alertViewController = UIAlertController(title: "Loading",
-                                                        message: "Está carregando",
-                                                        preferredStyle: .alert)
+            let alertViewController = LoadingViewController()
             self?.present(alertViewController, animated: true, completion: nil)
         }
     }

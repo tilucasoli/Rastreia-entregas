@@ -99,6 +99,6 @@ struct REWidgetKit: Widget {
 struct REWidgetKit_Previews: PreviewProvider {
     static var previews: some View {
         REWidgetKitEntryView(entry: SimpleEntry(date: Date(), title: "iPhone", local: "CEE CORREIOS FORTALEZA"))
-            .previewContext(WidgetPreviewContext(family: .systemMedium))
+            .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }
